@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+.main {
+    background-color: #FEFAF5;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50rem;
+}
+
+.heroimage {
+    max-width: 30%;
+    max-height: 30%;
+    margin-right:10%;
+}
+
+
+.main__title{
+    justify-content: flex-start;
+    margin-left: 10%;
+
+}
+
+.main__paragraph{
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.main__getstartedbutton{
+    position: relative ;
+    left:10%;
+    background-color: #DB7A4E;
+    border: none;
+    border-radius: 20px;
+    color: white !important;
+    padding:6px;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    height: 3.7rem;
+    width: 15rem;
+    text-decoration: none !important;
+}
+
+.reccomendations{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+ {
+    display: inline-block;
+    border: none;
+    background-repeat:no-repeat;
+    text-align: center;
+    min-width: 33rem;
+    max-width: 35rem;
+    min-height: 2rem;
+    max-height: 50rem;
+    padding: 0rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px black;
+ 
+}
+
+.destinationimages {
+    max-height: 50rem;
+    max-width: 34rem;
+    border-radius: 10px;
+}
+
+.destinationnames
+{
+    position: relative;
+    color: white ;
+    font-size: 2rem;
+    font-weight: bold;
+    bottom: 7rem;
+    left: 12rem;
+}

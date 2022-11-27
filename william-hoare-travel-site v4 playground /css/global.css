@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #335576;
+
+}
+
+*{
+    font: veranda;
+}
+
+
+a:link { 
+    color: #335576;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #335576; 
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline #DB7A4E ;
+            text-underline-offset: 1rem;
+            text-decoration-thickness: 3px;}
+a:active { text-decoration: #DB7A4E; }
+
+.titles
+{
+    margin-left: 10%;
+}
+
+.header {
+    background-color: #FFFFFF;
+    color: #335576;
+    max-width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+
+.header__navlist{
+    font-size: 1rem;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    margin-right: 20rem;
+    text-decoration: none;
+
+}
+
+.header__navitem {
+    display: inline-block;
+    border: none;
+    background-repeat:no-repeat;
+    text-align: center;
+    min-width: 3rem;
+    max-width: 3rem;
+    min-height: 2rem;
+    max-height: 5rem;
+    padding: 0rem;
+    margin: 2rem;
+    position: relative;
+    left: 10%;
+    text-decoration: none;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.header__navcurrent {
+    text-decoration: underline #DB7A4E ;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 3px;
+    display: inline-block;
+    border: none;
+    background-repeat:no-repeat;
+    text-align: center;
+    min-width: 3rem;
+    max-width: 3rem;
+    min-height: 2rem;
+    max-height: 5rem;
+    padding: 0rem;
+    margin: 2rem;
+    position: relative;
+    left: 10%;
+    font-size: 13px;
+}
+
+
+.footer__bar {
+    display: flex;
+    display: inline-flex;
+    width:100%;
+    height:20rem;
+    background-color: #FEFAF5;
+    justify-content: space-around;
+}
+
+
+.footer__items
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__orange{
+    color: #DB7A4E;
+    display: inline-block;
+}
+
+.socialicons
+{
+    max-height: 3rem;
+    max-width: 3rem;
+    margin-right: 3rem;
+}
